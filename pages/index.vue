@@ -1,5 +1,13 @@
 <template>
-    <UButton icon="i-heroicons-book-open" to="https://ui.nuxt.com" target="_blank">Open Nuxt UI Documentation</UButton>
-   <DatePickerExamples/>
-   
+    <ClientOnly>
+        <div class="h-60 md:h-[27rem] w-lvw">
+            <GallerySwiperNormal/>
+        </div>
+    </ClientOnly>
+    
+<UContainer>
+
+</UContainer>
+
 </template>
+
